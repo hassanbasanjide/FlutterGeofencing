@@ -24,7 +24,6 @@ class _MyAppState extends State<MyApp> {
   double longitude = -122.078818;
   double radius = 150.0;
 
-  //hello world
   ReceivePort port = ReceivePort();
   final List<GeofenceEvent> triggers = <GeofenceEvent>[
     GeofenceEvent.enter,
